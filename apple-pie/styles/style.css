@@ -10,15 +10,42 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
+
+ 
   font-weight: lighter;
 }
 
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+#landing {
+  height: 60vh;
+  background-image: url(../images/apple-pie.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+hr {
+  width: 80%;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 25vw
+  align-self; center
+}
